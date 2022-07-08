@@ -84,7 +84,7 @@
             } else{
                 alert('Computadora Gana :C')
             }
-        }, 100);
+        }, 500);
     
         
     }
