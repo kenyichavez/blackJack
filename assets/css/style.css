@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.baraja{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.carta{
+    margin-left: -35px;
+}
+
+
+@media screen and (max-width:500px){
+    .baraja{
+        width: 120px;
+        height: 120px;
+    }
+    .btn-text{
+        font-size: 9px;
+    }
+}

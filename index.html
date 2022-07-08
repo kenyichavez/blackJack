@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/cartas/AS.png">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-success">
+
+    <header class="text-center bg-dark">
+        <h1 class="p-3">Black Jack</h1>
+    </header>
+    <div class="text-center py-3 d-flex justify-content-evenly align-items-center">
+        <button id="btnNuevo" class="btn btn-danger m-0 pt-3"><p class="btn-text"><b>Nuevo Juego</b></p></button>
+        <button id="btnPedir" class="btn btn-primary m-0 pt-3"><p class="btn-text"><b>Pedir Carta</b></p></button>
+        <button id="btnDetener" class="btn btn-primary m-0 pt-3"><p class="btn-text"><b>Detener Turno</b></p></button>
+    </div>
+    <div class="m-3">
+        <h3>Jugador - <small>0</small></h3>
+        <div class="baraja d-flex" id="jugador-cartas">
+            
+        </div>
+    </div>
+    <div class="m-3 ">
+        <h3>Computadora - <small>0</small></h3>
+        <div class="baraja d-flex" id="computadora-cartas">
+
+        </div>
+    </div>
+    
+    <script src="assets/js/underscore.js"></script>
+    <script src="assets/js/juego.js"></script>
+    </body>
+</html>
